@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../util/multi_select_item.dart';
 import '../util/multi_select_actions.dart';
 import '../util/multi_select_list_type.dart';
+import 'dart:async';
+
 
 /// A bottom sheet widget containing either a classic checkbox style list, or a chip style list.
 class MultiSelectBottomSheet<T> extends StatefulWidget
